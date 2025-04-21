@@ -1,1 +1,37 @@
 
+#include<iostream>
+using namespace std;
+class datatype
+{
+public:
+	int a;
+		double b;
+
+	float c;
+	char d;
+
+datatype(int a1, double b1, float c1,char d1)
+{
+	a = a1;
+	b = b1;
+	c = c1;
+	d = d1;
+}
+public:
+	void show()
+{
+	cout << a;
+	cout << b;
+	cout << c;
+	cout <<d;
+
+}
+};
+int main()
+{
+	datatype dt(10, 20.0, 14.0,'m' );
+	cout << dt.a;
+	dt.show();
+	return 0;
+
+}
